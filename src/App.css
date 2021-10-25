@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'PT Sans', sans-serif;
+      /* background-color: #dfe6e9; */
+      /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+      background:url('https://images.pexels.com/photos/2335050/pexels-photo-2335050.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .text{
+      line-height: 1.5;
+      font-size: 25px;
+      color:#fdcb6e;
+      letter-spacing: 1.5;
+      font-weight: bolder;
+  }
+
+
+
+  .form_div{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 50px;
+    color: #000;
+    background-color: rgb(255, 247, 247);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+ /* New Video App */
+
+
+ .container {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .container input {
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    padding: 0.5em;
+  }
+  
+  .stream {
+    width: 450px;
+    height: 420px;
+    position: absolute;
+    top: 20%;
+    left: 35px;
+    border: 1px solid #000;
+  }
+ /* New Video App End */
+
+.inputBtn{
+    width: 70%;
+    padding: 15px 10px;
+    background-color: #051937;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.inputBtn:hover{
+    background-color: #2d3f5a;
+    transition: all 0.2s ease;
+}
+
+
+input:focus{
+    outline: none;
+}
+
+
