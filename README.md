@@ -5,6 +5,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+   Start App:
+   Make sure make .env file and in this file your env variables
+   APPID = AGORA APP_ID
+
+  CHANNEL = CHANNEL_NAME(OPTIONAL)
+
+  TOKEN = AGORA TOKEN_ID
+
+  KEY = KEY_ID(OPTIONAL)
+
+  SECRET = SECRET_KEY(OPTIONAL)
+
+
 
 ### `npm start`
 
